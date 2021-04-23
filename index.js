@@ -20,12 +20,21 @@ var _ = {};
 _.indexOf = function(array, value){
   //CODE BELOW HERE 
 
+for(var i = 0; i<= array.length -1; i++){
+  if(array === undefined){
+    return undefined;
+  } 
+  for var i = 0; i < array.length; i++){
+    if(array[i] === value){
+return i;
+  }
+}
 
-
+return - 1;
 
   //CODE ABOVE HERE
 }
-
+console.log(_.indexOf([1,2,3,4],4))
 
 
 
@@ -47,10 +56,13 @@ _.indexOf = function(array, value){
 
 _.contains = function(array, value){
 //CODE BELOW HERE
-
-
-
-
+for(var i = 0; i<= array.length - 1; i++){
+  if(){
+    return true;
+  } else {
+return false;
+  }
+}
 
 
 //CODE ABOVE HERE
